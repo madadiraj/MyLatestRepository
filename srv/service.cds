@@ -1,6 +1,7 @@
 using my.salesorder as my from '../db/data-model.cds';
 using CV_SalesOrders from '../db/cv_models';
 //Testing part
+//New TEST
 service CatalogService @(requires: 'authenticated-user',path:'/SalesOrderService') 
 {
     @(restrict: [
